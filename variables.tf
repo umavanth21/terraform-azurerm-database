@@ -1,3 +1,11 @@
+variable "subscription_id" {
+  }
+variable "client_id" {
+  }
+variable "tenant_id" {
+  }
+variable "client_secret" {
+  }
 variable "resource_group_name" {
   description = "Default resource group name that the database will be created in."
   default     = "TARGDND"
