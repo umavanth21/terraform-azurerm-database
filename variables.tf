@@ -8,8 +8,7 @@ variable "client_secret" {
   }
 variable "resource_group_name" {
   description = "Default resource group name that the database will be created in."
-  default     = "TARGDND"
-}
+  }
 
 variable "location" {
   description = "The location/region where the database and server are created. Changing this forces a new resource to be created."
