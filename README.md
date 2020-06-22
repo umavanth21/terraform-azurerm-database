@@ -15,7 +15,7 @@ module "sql-database" {
   location            = "westus"
   db_name             = "mydatabase"
   sql_admin_username  = "mradministrator"
-  sql_password        = "P@ssw0rd12345!"
+  sql_password        = "changeitlater"
 
   tags             = {
                         environment = "dev"
